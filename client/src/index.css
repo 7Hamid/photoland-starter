@@ -22,3 +22,11 @@
     @apply h-[50px] rounded-[8px] w-full outline-none px-6 text-primary;
   }
 }
+
+nav a.active{
+  font-weight: bold;
+  color: blueviolet;
+  text-decoration: underline;
+  transition: all;
+  transform: rotateX('angle');
+}
